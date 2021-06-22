@@ -27,7 +27,9 @@ const para = document.createElement('p');
 para.classList.add('paragraph');
 para.textContent = `Me too, boss`;
 
-
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'cyan';
+  });
 
 container.appendChild(content);
 container.appendChild(paragraph);
